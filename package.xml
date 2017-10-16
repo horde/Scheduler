@@ -10,7 +10,7 @@
   <email>chuck@horde.org</email>
   <active>yes</active>
  </lead>
- <date>2017-09-19</date>
+ <date>2017-10-17</date>
  <version>
   <release>2.0.4</release>
   <api>1.0.0</api>
@@ -25,24 +25,18 @@
  </notes>
  <contents>
   <dir baseinstalldir="/" name="/">
-   <dir name="doc">
-    <dir name="Horde">
-     <dir name="Scheduler">
-      <file name="COPYING" role="doc" />
-     </dir> <!-- /doc/Horde/Scheduler -->
-    </dir> <!-- /doc/Horde -->
-   </dir> <!-- /doc -->
    <dir name="lib">
     <dir name="Horde">
      <dir name="Scheduler">
       <dir name="Cron">
        <file name="Date.php" role="php" />
-      </dir> <!-- //lib/Horde/Scheduler/Cron -->
+      </dir> <!-- /lib/Horde/Scheduler/Cron -->
       <file name="Cron.php" role="php" />
-     </dir> <!-- //lib/Horde/Scheduler -->
+     </dir> <!-- /lib/Horde/Scheduler -->
      <file name="Scheduler.php" role="php" />
-    </dir> <!-- //lib/Horde -->
-   </dir> <!-- //lib -->
+    </dir> <!-- /lib/Horde -->
+   </dir> <!-- /lib -->
+   <file name="LICENSE" role="doc" />
   </dir> <!-- / -->
  </contents>
  <dependencies>
@@ -80,10 +74,10 @@
  </dependencies>
  <phprelease>
   <filelist>
-   <install as="COPYING" name="doc/Horde/Scheduler/COPYING" />
    <install as="Horde/Scheduler.php" name="lib/Horde/Scheduler.php" />
    <install as="Horde/Scheduler/Cron.php" name="lib/Horde/Scheduler/Cron.php" />
    <install as="Horde/Scheduler/Cron/Date.php" name="lib/Horde/Scheduler/Cron/Date.php" />
+   <install as="LICENSE" name="LICENSE" />
   </filelist>
  </phprelease>
  <changelog>
@@ -233,7 +227,7 @@ Converted to package.xml 2.0 for pear.horde.org
    <stability>
     <release>stable</release>
     <api>stable</api></stability>
-   <date>2017-09-19</date>
+   <date>2017-10-17</date>
    <license uri="http://www.horde.org/licenses/lgpl21">LGPL-2.1</license>
    <notes>
 * 
