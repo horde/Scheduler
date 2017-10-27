@@ -10,7 +10,7 @@
   <email>chuck@horde.org</email>
   <active>yes</active>
  </lead>
- <date>2017-10-17</date>
+ <date>2017-10-27</date>
  <version>
   <release>2.0.4</release>
   <api>1.0.0</api>
@@ -24,6 +24,13 @@
  </notes>
  <contents>
   <dir baseinstalldir="/" name="/">
+   <dir name="doc">
+    <dir name="Horde">
+     <dir name="Scheduler">
+      <file name="CHANGES" role="doc" />
+     </dir> <!-- /doc/Horde/Scheduler -->
+    </dir> <!-- /doc/Horde -->
+   </dir> <!-- /doc -->
    <dir name="lib">
     <dir name="Horde">
      <dir name="Scheduler">
@@ -73,6 +80,7 @@
  </dependencies>
  <phprelease>
   <filelist>
+   <install as="CHANGES" name="doc/Horde/Scheduler/CHANGES" />
    <install as="Horde/Scheduler.php" name="lib/Horde/Scheduler.php" />
    <install as="Horde/Scheduler/Cron.php" name="lib/Horde/Scheduler/Cron.php" />
    <install as="Horde/Scheduler/Cron/Date.php" name="lib/Horde/Scheduler/Cron/Date.php" />
@@ -226,7 +234,7 @@
    <stability>
     <release>stable</release>
     <api>stable</api></stability>
-   <date>2017-10-17</date>
+   <date>2017-10-27</date>
    <license uri="http://www.horde.org/licenses/lgpl21">LGPL-2.1</license>
    <notes>
    </notes>
