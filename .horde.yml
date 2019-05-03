@@ -2,7 +2,7 @@
 id: Scheduler
 name: Scheduler
 full: Scheduling library
-description: Horde Scheduler System
+description: A scheduler system library.
 list: dev
 type: library
 homepage: https://www.horde.org/libraries/Horde_Scheduler
