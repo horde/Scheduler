@@ -30,9 +30,6 @@
     "autoload": {
         "psr-0": {
             "Horde_Scheduler": "lib/"
-        },
-        "psr-4": {
-            "Horde\\Scheduler\\": "src/"
         }
     }
 }
