@@ -1,4 +1,5 @@
 {
+    "minimum-stability": "dev",
     "name": "horde/scheduler",
     "description": "Scheduling library",
     "type": "library",
@@ -20,9 +21,9 @@
     ],
     "require": {
         "php": "^7",
-        "horde/core": "^3",
-        "horde/util": "^3",
-        "horde/vfs": "^3"
+        "horde/core": "^3 || dev-FRAMEWORK_6_0",
+        "horde/util": "^3 || dev-FRAMEWORK_6_0",
+        "horde/vfs": "^3 || dev-FRAMEWORK_6_0"
     },
     "suggest": {},
     "autoload": {
