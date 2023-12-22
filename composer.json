@@ -14,20 +14,14 @@
     "version": "2.0.4",
     "time": "2017-11-11",
     "repositories": [
-        {
-            "type": "pear",
-            "url": "https://pear.horde.org"
-        }
     ],
     "require": {
         "php": "^5.3 || ^7",
-        "pear-pear.horde.org/Horde_Core": "^2",
-        "pear-pear.horde.org/Horde_Util": "^2",
-        "pear-pear.horde.org/Horde_Vfs": "^2"
+        "horde/core": "^2",
+        "horde/util": "^2",
+        "horde/vfs": "^2"
     },
     "replace": {
-        "pear-pear.horde.org/Horde_Scheduler": "2.*",
-        "pear-horde/Horde_Scheduler": "2.*"
     },
     "autoload": {
         "psr-0": {
