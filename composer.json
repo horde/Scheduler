@@ -12,15 +12,10 @@
             "role": "lead"
         }
     ],
-    "time": "2021-03-13",
-    "repositories": [
-        {
-            "type": "composer",
-            "url": "https://horde-satis.maintaina.com/"
-        }
-    ],
+    "time": "2024-01-03",
+    "repositories": [],
     "require": {
-        "php": "^7",
+        "php": "^7 || ^8",
         "horde/core": "^3 || dev-FRAMEWORK_6_0",
         "horde/util": "^3 || dev-FRAMEWORK_6_0",
         "horde/vfs": "^3 || dev-FRAMEWORK_6_0"
