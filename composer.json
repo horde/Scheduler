@@ -14,10 +14,10 @@
     "time": "2024-01-10",
     "repositories": [],
     "require": {
-        "php": "^7",
-        "horde/core": "^3 || dev-FRAMEWORK_6_0",
-        "horde/util": "^3 || dev-FRAMEWORK_6_0",
-        "horde/vfs": "^3 || dev-FRAMEWORK_6_0"
+        "php": "^7.4 || ^8",
+        "horde/core": "^3",
+        "horde/util": "^3",
+        "horde/vfs": "^3"
     },
     "require-dev": {},
     "suggest": {},
